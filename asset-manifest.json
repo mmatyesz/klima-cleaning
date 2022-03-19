@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50d7f18e.css",
+    "main.js": "/static/js/main.03bcdb8e.js",
+    "static/media/Klima-elotte.jpg": "/static/media/Klima-elotte.6d78f08e51be4acb5066.jpg",
+    "static/media/fertotlenites.jpg": "/static/media/fertotlenites.0090553abf8c235b9db9.jpg",
+    "static/media/klima-utana.jpg": "/static/media/klima-utana.ab522296a7f573a110a6.jpg",
+    "static/media/kulteri.jpg": "/static/media/kulteri.4d02f9fac9ccb9f9ec13.jpg",
+    "static/media/logo_sideways_hatternelkul.svg": "/static/media/logo_sideways_hatternelkul.6385a18e8ddfecf25794347932907fd7.svg",
+    "index.html": "/index.html",
+    "main.50d7f18e.css.map": "/static/css/main.50d7f18e.css.map",
+    "main.03bcdb8e.js.map": "/static/js/main.03bcdb8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50d7f18e.css",
+    "static/js/main.03bcdb8e.js"
+  ]
+}
