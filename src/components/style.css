@@ -1,0 +1,529 @@
+:root{
+    --lightblue: #008aca;
+    --darkblue: #045389;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+hr{
+    width: 95%;
+    color: rgb(170, 170, 170);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+i{
+    color: var(--darkblue);
+}
+
+p{
+    font-size: 13pt;
+}
+
+#body{
+    height: auto;
+}
+
+#footer{
+    height: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: var(--darkblue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#footer h3{
+    color: white;
+    font-size: 12pt;
+}
+
+#footer a{
+    color: white;
+}
+
+/*HEADER*/
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+#nav-linkek{
+    line-height: 50px;
+}
+
+
+.fa-bars{
+    display: none;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: rgb(80, 80, 80);
+}
+
+/*FOOLDAL*/
+#fooldal{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    height: auto;
+}
+
+#szolgaltatasHeader{
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
+}
+
+#szolgaltatasHeader a{
+    border: 2px solid var(--darkblue);
+    color: var(--darkblue);
+    font-size: 15px;
+    padding: 0px;
+    text-decoration: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#szolgaltatasHeader a:hover{
+    background-color: var(--darkblue);
+    color: white;
+}
+
+#szolgaltatasContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.szolgaltatas{
+    text-decoration: none;
+    position: relative;
+    width: 30%;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.szolgaltatas:hover{
+    background-color:rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+.szolgaltatas p{
+    color: grey;
+}
+
+.szolgaltatas h2{
+    color: var(--darkblue)
+}
+
+.szolgaltatas .ar{
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.szolgaltatas #comment{
+    color: grey;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+#bemutatas{
+    display: flex;
+}
+
+#bemutatas #bemutatas-text{
+    
+    padding-left: 30px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#technologia{
+    margin-bottom: 30px;
+}
+
+#elerhetoseg{
+    display: flex;
+    justify-content: space-around;
+}
+
+#elerhetoseg #face_insta a{
+    font-size: 11pt;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    background: var(--darkblue);
+    padding: 20px;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+#elerhetoseg #face_insta h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#bemutatas #bemutatas-text p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#elerhetoseg #info h2{
+    color: var(--darkblue);
+}
+
+#elerhetoseg h1, p, h2{
+    margin-bottom: 10px;
+}
+
+/*SZOLGALTATASOK ES ARAK*/
+
+.szolgaltatasok img{
+    width: 400px;
+}
+
+.szolgaltatasok section{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.szolgaltatasok div{
+    padding: 20px;
+    padding-right: 30px;
+}
+
+.szolgaltatasok h3{
+    margin-bottom: 30px;
+    color: var(--darkblue)
+}
+
+.szolgaltatasok p{
+    width: 70%;
+    text-align: justify;
+}
+
+.szolgaltatasok a{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: var(--darkblue);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.szolgaltatasok a:hover{
+    background-color: var(--lightblue);
+}
+
+.szolgaltatasok #cim{
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.szolgaltatasok i{
+    color: white;
+}
+.szolgaltatasok .fa-coins{
+    color: black;
+}
+
+/*KERDESEK ES VALASZOK*/
+
+.qna #cim{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.qna #cim .fa-circle-question{
+    color: black;
+}
+
+.qna #qna-container .qna-card{
+    margin: auto;
+    margin-bottom: 50px;
+    width: 70%;
+    text-align: justify;
+    font-size: 14pt;
+}
+
+.qna #qna-container{
+    margin: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.qna .hr{
+    width: 100%;
+}
+
+.qna h3{
+    margin-bottom: 30px;
+}
+
+/*UGYFEL VELEMENYEK*/
+
+.ugyfelV{
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+
+.ugyfelV #cim{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.ugyfelV #cim i{
+    color: black;
+}
+
+.ugyfelV .comment h3 i{
+    color: black;
+    padding-right: 20px;
+}
+
+.ugyfelV h3{
+    margin-bottom: 10px;
+}
+
+.ugyfelV .comment{
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 70%;
+    border-radius: 15px;
+    text-align: justify;
+    font-size: 14pt;
+}
+
+.ugyfelV .comment p{
+    font-size: 14pt;
+}
+
+.ugyfelV .right h3{
+    text-align: right;
+}
+
+.adatK{
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+}
+
+.adatK h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.adatK h1 i{
+    color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    nav{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 50px;
+    }
+
+    hr{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #fooldal{
+        width: 100%;
+        margin: 0px;
+        margin-top: 100px;
+    }
+    
+    #fooldal #foglaljon{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #szolgaltatasHeader{
+        width: 90%;
+        margin: auto;
+    }
+
+    #elerhetoseg #face_insta h1{
+        width: 90%;
+        margin: auto;
+        font-size: 20pt;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+
+    #szolgaltatasHeader a{
+        display: none;
+    }
+
+    #szolgaltatasContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        margin-left: 0px;
+    }
+
+    .szolgaltatas{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+    #nav-linkek{
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+        font-size: 25pt;
+        color: black;
+        line-height: 50px;
+        margin-right: 5px;
+    }
+
+    #elerhetoseg{
+        flex-direction: column;
+    }
+
+    #elerhetoseg #info{
+        width: 90%;
+        margin: auto;
+    }
+
+    #elerhetoseg #info p{
+        text-align: justify;
+    }
+
+    #elerhetoseg #info h1{
+        text-align: center;
+    }
+
+    #elerhetoseg #info h2{
+        text-align: center;
+    }
+
+    #elerhetoseg #info span{
+        font-size: 33pt;
+    }
+
+    #elerhetoseg #face_insta h1{
+        margin-bottom: 0px;
+    }
+
+    #elerhetoseg #face_insta a{
+        font-size: 10.5pt;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #elerhetoseg #face_insta{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bemutatas{
+        flex-direction: column;
+    }
+
+    #bemutatas #carousel{
+        width: 90%;
+        margin: auto;
+    }
+
+    #technologia{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #footer{
+        padding: 0px;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    #footer h3{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-nav-linkek{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50px;
+        right: 0;
+        background-color: white;
+        width: 70%;
+        height: 100%;
+        z-index: 3;
+        transform: translate(100%);
+        transition: .2s ease;
+    }
+
+    .bejon{
+        transform: translate(0);
+    }
+}
